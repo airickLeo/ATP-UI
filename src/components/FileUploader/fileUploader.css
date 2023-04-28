@@ -1,0 +1,10 @@
+.upload {
+  display: block;
+  margin: 10%;
+  padding: 2%;
+  text-align: center;
+  border: 2px dashed lightskyblue;
+  width: 35%;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}

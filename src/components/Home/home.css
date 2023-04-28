@@ -1,0 +1,111 @@
+.actions, .parameters {
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+  width: auto
+}
+
+.output {
+  padding: 10px;
+  margin: 30px;
+  text-align: center;
+  margin-left: 20px;
+  width: auto;
+}
+
+table {
+  width: 90% !important;
+  border: 1px solid;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+td, th {
+  border: 1px solid;
+  padding: 10px;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: lightgray;
+}
+
+div.header {
+  height: 300px;
+  background-image: url('../../background-image/automated-testing.svg');
+  display:block;
+  background-size:cover;
+  background-position: center;
+}
+
+div.header > h1 {
+  text-align: center;
+  position: bottom;
+  padding: 100px;
+  color: black;
+  
+}
+
+.notif {
+  /* background-image: url("/atp-ui/public/background-image/automated-testing.svg"); */
+}
+
+.nested-obj {
+  /*
+  padding: 10px;
+  border: 2px solid beige;
+  background-color:lightgoldenrodyellow;
+  */
+}
+
+dl div {
+  margin: 10px 0 10px 10px;
+}
+
+dl > dd {
+  margin: 0 0 0 20px
+}
+
+dd + div {
+  margin-top: 0px;
+}
+
+td > div {
+  margin: 4px 0;
+}
+
+td > dl {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+dl div > dd {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+}
+
+dt + div {
+  margin-top: 0;
+}
+
+input[type="file"] {
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+div > h2 {
+  font-size: 100%;
+  margin-bottom: 10px; 
+}
+
+.clickable-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fileUploaders {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}

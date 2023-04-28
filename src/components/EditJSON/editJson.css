@@ -1,0 +1,36 @@
+.edit {
+  padding: 15%;
+  margin: auto;
+  color: red;
+}
+
+.editJsonGroup {
+  width: 60%;
+  padding: 2% 3% 0% 3%;
+  margin: 2%;
+  border-style:dashed;
+  border-radius: 35px;
+  border-color: rgb(133, 127, 127);
+}
+
+.test-input-pair {
+  border: solid;
+  border-width: 0.5px;
+  border-color: rgb(231, 227, 227);
+  background-color: aliceblue;
+  margin-bottom: 4%;
+  padding: 2%;
+}
+
+.test-input-pair + .test-input-pair {
+  margin-bottom: 4%;
+}
+
+.obj-keyValue-pair {
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+
+.obj-key {
+  margin-bottom: 2%;
+}

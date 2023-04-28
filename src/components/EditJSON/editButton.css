@@ -1,0 +1,11 @@
+.editButton {
+  border: none;
+  display: block;
+  padding: 1%;
+  font-size: 120%;
+  width: 10%;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 1%;
+  margin-left: 5%;
+}
